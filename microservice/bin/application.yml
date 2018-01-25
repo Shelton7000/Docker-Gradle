@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: microservice
+  data:
+    mongodb:
+      uri     : ${MONGO_URL}
+      database: ${MONGO_DBNAME}
